@@ -13,6 +13,21 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      // animation: {
+      //   'spin-slow': 'slideUp 1s ease-in-out',
+      // },
+      // keyframes: {
+      //   wiggle: {
+      //     '0%': {
+      //       opacity: '0.6',
+      //       transform: 'translateY(30px)'
+      //     },
+      //     '100%': {
+      //       opacity: '0.6',
+      //       transform: 'translateY(0)'
+      //     },
+      //   }
+      // }
     },
   },
   plugins: [],

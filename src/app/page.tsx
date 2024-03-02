@@ -1,9 +1,8 @@
-import { Category } from "@/components/category";
-import { Footer } from "@/components/footer";
-import { HeroSection } from "@/components/herosection";
-import { HotDeals } from "@/components/hotdeals";
-import { Navbar } from "@/components/navbar";
-// import SliderBg from '../../public/assets/images/slider_bg.jpg'
+import Category from "@/components/category/Category";
+import Footer from "@/components/footer/Footer";
+import HeroSection from "@/components/herosection/HeroSection";
+import HotDeals from "@/components/hotdeals/HotDeals";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@ import { footerCompanyData, footerHelpData, footerOpeningTimeData, footerShopDat
 import Image from 'next/image'
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from "react-icons/fa";
-import { FooterTab } from '@/components/footer';
+import FooterTab from './FooterTab';
 
 const Footer = () => {
   return (

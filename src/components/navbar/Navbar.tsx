@@ -11,8 +11,8 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { ProductsTab } from ".";
-import { DropDown } from "../dropdown";
+import ProductsTab from "./ShopTab";
+import DropDown from "../dropdown/DropDown";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

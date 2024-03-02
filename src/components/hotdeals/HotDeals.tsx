@@ -7,7 +7,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { HotDealsData } from "@/constant/hotDeals";
-import { Card } from "@/components/cards";
+import Card from "../cards/Card";
 
 const HotDeals = () => {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());

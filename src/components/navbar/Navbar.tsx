@@ -8,7 +8,7 @@ import { FaFacebookF, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from "rea
 import { ProductsTab } from "."
 import Logo from '../../../public/assets/images/logo.png'
 
-import DropDown from "../DropDown/DropDown"
+import DropDown from "../dropdown/DropDown"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

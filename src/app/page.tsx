@@ -1,7 +1,8 @@
-import { Category } from '@/components/Category'
-import { Footer } from '@/components/Footer'
-import { HeroSection } from '@/components/HeroSection.tsx'
-import { Navbar } from '@/components/Navabr'
+import { Category } from '@/components/category'
+import { Footer } from '@/components/footer'
+import { HeroSection } from '@/components/herosection'
+import { HotDeals } from '@/components/hotdeals'
+import { Navbar } from '@/components/navbar'
 // import SliderBg from '../../public/assets/images/slider_bg.jpg'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
           <div className='bg-white rounded-xl'>
             <div className="container mx-auto">
               <Category />
+              <HotDeals/>
             </div>
             <Footer />
           </div>

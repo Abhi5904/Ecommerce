@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
-  font-family: 'Jost', 'Montserrat', 'Playfair Display', 'Poppins', sans-serif;
+* {
+  font-family: "Jost", "Montserrat", "Playfair Display", "Poppins", sans-serif;
 }
-
 .animate {
   transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
   /* animation: slideUp 1s ease-in-out; */
@@ -34,8 +34,8 @@ body {
 }
 
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-bottom {
@@ -65,7 +65,7 @@ body {
 /* hero section */
 
 .hero-background {
-  background-image: url('../../public/assets/images/slider_bg.jpg');
+  background-image: url("/images/slider_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -93,7 +93,7 @@ body {
   margin: 0 20px !important;
 }
 
-.slick-slide>div {
+.slick-slide > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +128,7 @@ body {
 }
 
 .swiper-pagination-bullet::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 30px;
@@ -143,10 +143,19 @@ body {
   display: none;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   color: black;
 }
 
-.swiper-pagination-bullet-active::after{
+.swiper-pagination-bullet-active::after {
   background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #747474 !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
 }
